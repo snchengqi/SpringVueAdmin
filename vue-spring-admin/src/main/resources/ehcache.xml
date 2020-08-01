@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd" updateCheck="false">
+    <!--
+     | Please see http://ehcache.sourceforge.net/documentation/configuration.html for
+     | detailed information on how to configurigure caches in this file
+     +-->
+    <!-- Location of persistent caches on disk -->
+    <diskStore path="java.io.tmpdir" />
+
+    <defaultCache eternal="false" maxElementsInMemory="3000"
+                  overflowToDisk="false" diskPersistent="false" timeToIdleSeconds="0"
+                  timeToLiveSeconds="43200" memoryStoreEvictionPolicy="LRU"/>
+
+    <cache name="upUsers" maxElementsInMemory="500"
+           overflowToDisk="true" maxElementsOnDisk="3000"
+           timeToIdleSeconds="86400" timeToLiveSeconds="604800"/>
+
+</ehcache>
