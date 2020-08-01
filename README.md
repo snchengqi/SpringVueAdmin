@@ -39,13 +39,13 @@ vue-element-admin
 
 - 修改后端代码的配置文件数据库连接信息，如下图：
 
-  ![image-20200801100856576](C:\Users\chengqi\AppData\Roaming\Typora\typora-user-images\image-20200801100856576.png)
+  ![image-20200801100856576](typora-user-images/image-20200801100856576.png?raw=true)
 
 - 然后启动后端服务
 
 - 启动前端（数据库初始化了两个管理员账号：super/super  admin/admin）
 
-  ![image-20200801101216467](typora-user-images\image-20200801101216467.png)
+  ![image-20200801101216467](typora-user-images/image-20200801101216467.png?raw=true)
 
 ## 二次开发
 
@@ -53,29 +53,29 @@ vue-element-admin
 
 - 开发好接口和前端页面之后，首先将Vue组件注册到components.js文件
 
-![image-20200801101809448](typora-user-images\image-20200801101809448.png)
+![image-20200801101809448](typora-user-images/image-20200801101809448.png?raw=true)
 
 - 然后配置菜单国际化文本
 
-  ![image-20200801102000922](typora-user-images\image-20200801102000922.png)
+  ![image-20200801102000922](typora-user-images/image-20200801102000922.png?raw=true)
 
 - 在接口管理界面注册你的接口
 
-  ![image-20200801102352811](typora-user-images\image-20200801102352811.png)
+  ![image-20200801102352811](typora-user-images/image-20200801102352811.png?raw=true)
 
 - 注册好接口之后，在菜单设置界面注册你的一级菜单和二级菜单（绑定接口）
 
-![image-20200801102137687](typora-user-images\image-20200801102137687.png)
+![image-20200801102137687](typora-user-images/image-20200801102137687.png?raw=true)
 
-![image-20200801102228897](typora-user-images\image-20200801102228897.png)
+![image-20200801102228897](typora-user-images/image-20200801102228897.png?raw=true)
 
 - 在角色管理界面为角色赋予对应的资源权限
 
-  ![image-20200801102558504](typora-user-images\image-20200801102558504.png)
+  ![image-20200801102558504](typora-user-images/image-20200801102558504.png?raw=true)
 
 - 为用户绑定角色关系
 
-  ![image-20200801102658074](typora-user-images\image-20200801102658074.png)
+  ![image-20200801102658074](typora-user-images/image-20200801102658074.png?raw=true)
 
   至此，所有操作就完成了，登录的用户只展示拥有访问权限的菜单，并且不可绕过前端控制直接访问接口。
 
